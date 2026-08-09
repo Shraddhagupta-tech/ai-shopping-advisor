@@ -13,16 +13,18 @@ AI Shopping Advisor is an intelligent system that helps users make better purcha
 ## Team Members
 Name            id no.
 Laiba Ansari     VU2F2425011
+
 Shraddha Gupta   VU2F2425012
+
 Harshada Karale  VU2F2425023
 
 ## Technology/tools used
-Layer	     |    Technology  
-Frontend	 |      React.js  
-Backend	   |      Spring Boot  
-AI Service |   	 Kotlin
-Database	 |     PostgreSQL
-Communication	|   REST APIs
+Layer	         |    Technology  
+Frontend	     |      React.js  
+Backend	       |      Spring Boot  
+AI Service     |   	 Kotlin
+Database	     |     PostgreSQL
+Communication	 |   REST APIs
 Authentication |	  JWT
 
 ## Major Features/Modules
