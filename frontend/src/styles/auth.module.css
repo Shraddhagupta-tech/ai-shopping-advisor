@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  /* Brownish background */
+  background: #8b5e3c;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+
+  padding: 40px;
+  border-radius: 14px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.card h1 {
+  margin: 0;
+  text-align: center;
+  color: #5c3a21;
+  font-size: 30px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #777;
+  margin: 8px 0 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 7px;
+  color: #4a2c18;
+  font-weight: 600;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 13px 14px;
+
+  border: 1px solid #c8b09a;
+  border-radius: 7px;
+
+  font-size: 15px;
+  outline: none;
+
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.formGroup input:focus {
+  border-color: #8b5e3c;
+  box-shadow: 0 0 0 3px rgba(139, 94, 60, 0.15);
+}
+
+.formGroup input::placeholder {
+  color: #aaa;
+}
+
+.error {
+  display: block;
+  margin-top: 6px;
+  color: #c0392b;
+  font-size: 13px;
+}
+/* 
+.password-hint {
+  display: block;
+  margin-top: 7px;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.4;
+} */
+
+.button {
+  width: 100%;
+  padding: 13px;
+
+  border: none;
+  border-radius: 7px;
+
+  background: #8b5e3c;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background 0.2s, transform 0.1s;
+}
+
+.button:hover {
+  background: #704a2f;
+}
+
+.register-button:active {
+  transform: scale(0.98);
+}
+
+.link {
+  text-align: center;
+  margin-top: 22px;
+  color: #666;
+  font-size: 14px;
+}
+
+.link a {
+  color: #cc6c23;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: #c17e4e;
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .card {
+    padding: 28px 22px;
+  }
+
+  .card h1 {
+    font-size: 25px;
+  }
+}
