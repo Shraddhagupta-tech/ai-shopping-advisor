@@ -20,19 +20,14 @@ Shraddha Gupta   VU2F2425012
 Harshada Karale  VU2F2425023
 
 ## Technology/tools used
-Layer	            Technology
-
-Frontend	           React.js
-
-Backend	             Spring Boot
-
-AI Service        	 Kotlin
-
-Database	          PostgreSQL
-
-Communication	    REST APIs
-
-Authentication 	  JWT
+| Layer | Technology |
+|---|---|
+| Frontend | React.js |
+| Backend | Spring Boot |
+| AI Service | Kotlin |
+| Database | PostgreSQL |
+| Communication | REST APIs |
+| Authentication | JWT |
 
 ## Major Features/Modules
 1. User Registration and Login
