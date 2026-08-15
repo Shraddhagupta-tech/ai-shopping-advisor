@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-primary: #B76E79;
+  --color-primary-hover: #a35d68;
+  --color-gold: #D4AF37;
+  --color-gold-hover: #be9a2c;
+  --color-warm-bg: #FFFDF8;
+  --color-warm-text: #1F1F1F;
+  --color-warm-border: #E8E3DC;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFDF8;
+  color: #1F1F1F;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  /* Premium animations & backdrops */
+  .fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+  }
+  
+  .slide-up {
+    animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
