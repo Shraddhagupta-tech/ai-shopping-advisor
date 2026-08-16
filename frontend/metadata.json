@@ -1,0 +1,6 @@
+{
+  "name": "Luxora AI",
+  "description": "Luxora AI is a premium, minimal AI-powered shopping advisor for Indian shoppers to discover the best products based on natural language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
